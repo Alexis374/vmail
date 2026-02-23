@@ -10,17 +10,17 @@ keep_vars = true
 # 启用 D1 数据库
 [[d1_databases]]
 binding = "DB"
-database_name = "${D1_DATABASE_NAME}"
-database_id = "${D1_DATABASE_ID}"
+database_name = "vmail"
+database_id = "6aa80780-48f7-4f9d-bc4d-ce774b7ebd1d"
 # fix: 将迁移目录直接配置在这里，这是 D1 自动迁移的标准做法
 migrations_dir = "worker/drizzle"
 
 # 定义环境变量和密钥
 [vars]
-EMAIL_DOMAIN = "${EMAIL_DOMAIN}"
-TURNSTILE_KEY = "${TURNSTILE_KEY}"
-COOKIES_SECRET = "${COOKIES_SECRET}"
-TURNSTILE_SECRET = "${TURNSTILE_SECRET}"
+EMAIL_DOMAIN = "mail.diaodaquan.dpdns.org"
+TURNSTILE_KEY = "0x4AAAAAACgKMfKz_OSOZofO"
+COOKIES_SECRET = "fuckyousuckme"
+TURNSTILE_SECRET = "0x4AAAAAACgKMb6EARdjkdZieAP2_G9V82I"
 
 # 配置邮件处理
 [triggers]
