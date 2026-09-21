@@ -17,7 +17,7 @@ migrations_dir = "worker/drizzle"
 
 # 定义环境变量和密钥
 [vars]
-EMAIL_DOMAIN = "mail.diaodaquan.dpdns.org"
+EMAIL_DOMAIN = "diaodaquan.dpdns.org"
 TURNSTILE_KEY = "0x4AAAAAACgKMfKz_OSOZofO"
 COOKIES_SECRET = "fuckyousuckme"
 TURNSTILE_SECRET = "0x4AAAAAACgKMb6EARdjkdZieAP2_G9V82I"
