@@ -11,7 +11,7 @@ keep_vars = true
 [[d1_databases]]
 binding = "DB"
 database_name = "vmail"
-database_id = "${D1_DATABASE_ID}"
+database_id = "b5a6602b-408d-4c13-a376-1281a9862b26"
 # fix: 将迁移目录直接配置在这里，这是 D1 自动迁移的标准做法
 migrations_dir = "worker/drizzle"
 
